@@ -4,7 +4,10 @@
   "description": "Balance Network Deploy Contracts for NFT MarketPlace",
   "main": "truffle.config.js",
   "scripts": {
-    "test": "mocha"
+    "build": "truffle compile --all --contracts_build_directory=./build/${NETWORK}",
+    "test": "truffle test --compile-all --contracts_build_directory=./build/${NETWORK}",
+    "deploy": "./deploy.bash",
+    "verify": "./verify-all.bash"
   },
   "repository": {
     "type": "git",

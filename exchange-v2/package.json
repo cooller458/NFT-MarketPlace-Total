@@ -1,0 +1,19 @@
+{
+  "name": "balancenetwork-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.config.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "balancenetwork",
+    "nftmarketplace",
+    "exchange"
+  ],
+  "author": "@cooller458",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  }
+}
