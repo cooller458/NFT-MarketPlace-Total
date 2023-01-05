@@ -1,0 +1,19 @@
+{
+  "name": "balancenft-totalcontracts",
+  "version": "1.0.0",
+  "description": "balance network total contracts ",
+  "main": "truffle.congif.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "NFT-MarketPlace",
+    "NFT"
+  ],
+  "author": "@cooller458",
+  "license": "MIT"
+}
